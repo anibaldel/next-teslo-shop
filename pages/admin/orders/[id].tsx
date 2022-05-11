@@ -37,7 +37,7 @@ const OrderPage:NextPage<Props> = ({ order }) => {
             ?(
                 <Chip 
                     sx={{ my: 2 }}
-                    label="Orden ya fue pagada"
+                    label="Orden ya fue pagada!"
                     variant='outlined'
                     color="success"
                     icon={ <CreditScoreOutlined /> }
